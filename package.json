@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-aezakmi-handlers-name",
-  "version": "0.0.6",
+  "version": "0.0.11",
   "description": "plugin for correct naming component handlers",
   "keywords": [
     "eslint",
@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests --recursive",
-    "update": "pnpm version patch && pnpm publish"
+    "update": "pnpm version patch --no-git-checks --force && pnpm publish"
   },
   "dependencies": {
     "micromatch": "^4.0.5",
