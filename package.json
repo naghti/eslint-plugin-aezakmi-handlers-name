@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-aezakmi-handlers-name",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "plugin for correct naming component handlers",
   "keywords": [
     "eslint",
