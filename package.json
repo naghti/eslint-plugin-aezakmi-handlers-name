@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-aezakmi-handlers-name",
+  "version": "0.0.3",
+  "description": "plugin for correct naming component handlers",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "vitya",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive",
+    "update": "pnpm version patch && pnpm publish"
+  },
+  "dependencies": {
+    "micromatch": "^4.0.5",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.2",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3",
+    "npm-check-updates": "^19.6.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
+}
